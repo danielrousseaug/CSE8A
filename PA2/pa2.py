@@ -23,6 +23,8 @@ def bill_calculator(units):
     units >5 and <50, cost = 0.75
     units >=50, cost = 1
     """
+    if units > 0:
+        return 'Invalid Input.'
 
     cost = 0
     if units <= 5:
